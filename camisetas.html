@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>JS-Shop</title>
+        <link href="assets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+      <div class="card">
+        <div class="card mb-3" style="max-width: 600px;">
+      <table class="table">
+        <thead>
+          <tr> 
+            <th scope="col" class="text-center"></th>
+            <th scope="col" class="text-center">Código</th>
+            <th scope="col" class="text-center">Nombre</th>
+            <th scope="col" class="text-center">Precio</th>   
+            <th scope="col" class="text-center">Agregar</th>  
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="assets\img\camiseta1.jpg" class="img-fluid rounded-start" alt="camiseta1" width="150" height="50" style="position: center;"></td>                
+                <td>CAM01</td>
+                <td>Camiseta Multi-color</td>
+                <td>$12.50</td>
+                <td> <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Camiseta Multi-color','12.50')"><img src="assets\img\carrito1.png" width="35" height="35"/></button> </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\camiseta2.jpg" class="img-fluid rounded-start" alt="camiseta2" width="150" height="50" style="position: center;"></td>                
+              <td>CAM02</td>
+              <td>Camiseta logo negro</td>
+              <td>$15.25</td>
+              <td> 
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Camiseta logo negro','15.25')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\camiseta3.jpg" class="img-fluid rounded-start" alt="camiseta1" width="150" height="50" style="position: center;"></td>                
+              <td>CAM03</td>
+              <td>Camiseta Lacoste blanca + logo grande</td>
+              <td>$12.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Camiseta Lacoste blanca + logo grande','12.00')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\camiseta4.jpg" class="img-fluid rounded-start" alt="camiseta1" width="150" height="50" style="position: center;"></td>                
+              <td>CAM04</td>
+              <td>CAmiseta franja roja</td>
+              <td>$12.80</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('CAmiseta franja roja','12.80')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>   
+        
+    </body>
+
+    <script src="assets/js/script.js"></script>
+</html>

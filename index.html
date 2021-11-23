@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS-Shop</title>
+    <meta name="viewport" content="widht=device=width, initial=scale=1.0">
+    <meta name="title" content="JS-Shop">
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="assets\css\estilos.css">
+</head>
+<body>
+    <header>
+        <img src="assets\img\js-shop.jpeg" width="480px"> 
+   </header>
+    <p></p>
+    <div class="container">
+            <div class="card-group">
+                <div class="card">
+                    <select  id="cat" onchange="itemSeleccionado();" class="form-select" aria-label="Default select example">  
+                        <option selected >Seleccione una categoria de compra</option>
+                        <option value="Camisetas">Camisetas</option>
+                        <option value="Jeans">Jeans</option>
+                        <option value="Joyeria">Joyeria</option>
+                    </select>
+                    <div id="add"> </div>
+                </div>
+                <div class="card">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td scope="col" class="text-center"> Nombre </td>
+                                <td scope="col" class="text-center"> Precio $ </td>
+                            </tr>
+                        </thead>
+                    </table>
+                    <div class = "addT"></div>
+                        
+                </div>
+            </div>  
+        <div class = "card-group"> </div>
+</div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

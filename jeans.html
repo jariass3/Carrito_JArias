@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>JS-Shop</title>
+        <link href="assets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+      <div class="card">
+        <div class="card mb-3" style="max-width: 600px;">
+      <table class="table">
+        <thead>
+          <tr> 
+            <th scope="col" class="text-center"></th>
+            <th scope="col" class="text-center">Código</th>
+            <th scope="col" class="text-center">Nombre</th>
+            <th scope="col" class="text-center">Precio</th>   
+            <th scope="col" class="text-center">Agregar</th>  
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="assets\img\jean1.jpg" class="img-fluid rounded-start" alt="jean1" width="150" height="50" style="position: center;"></td>                
+                <td>JEA01</td>
+                <td>Jean Formal azul</td>
+                <td>$13.50</td>
+                <td> <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Jean Formal azul','13.50')"><img src="assets\img\carrito1.png" width="35" height="35"/></button> </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\jean2.jpg" class="img-fluid rounded-start" alt="jean2" width="150" height="50" style="position: center;"></td>                
+              <td>JEA02</td>
+              <td>Jean tubo celeste</td>
+              <td>$15.00</td>
+              <td> 
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Jean tubo celeste','15.00')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\jean3.jpg" class="img-fluid rounded-start" alt="jean1" width="150" height="50" style="position: center;"></td>                
+              <td>JEA03</td>
+              <td>Jean clasico negro</td>
+              <td>$10.99</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Jean clasico negro','10.99')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\jean4.jpg" class="img-fluid rounded-start" alt="jean1" width="150" height="50" style="position: center;"></td>                
+              <td>JEA04</td>
+              <td>Jean clasico plomo</td>
+              <td>$10.99</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Jean clasico plomo','10.99')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\jean5.jpg" class="img-fluid rounded-start" alt="jean1" width="150" height="50" style="position: center;"></td>                
+              <td>JEA05</td>
+              <td>Jean semi-formal turquesa</td>
+              <td>$16.99</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Jean semi-formal turquesa','16.99')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>   
+        
+    </body>
+
+    <script src="assets/js/script.js"></script>
+</html>

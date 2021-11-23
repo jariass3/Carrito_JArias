@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>JS-Shop</title>
+        <link href="assets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+      <div class="card">
+        <div class="card mb-3" style="max-width: 600px;">
+      <table class="table">
+        <thead>
+          <tr> 
+            <th scope="col" class="text-center"></th>
+            <th scope="col" class="text-center">Código</th>
+            <th scope="col" class="text-center">Nombre</th>
+            <th scope="col" class="text-center">Precio</th>   
+            <th scope="col" class="text-center">Agregar</th>  
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="assets\img\joyeria1.jpg" class="img-fluid rounded-start" alt="joyeria1" width="150" height="50" style="position: center;"></td>                
+                <td>JOY01</td>
+                <td>Manilla cobra</td>
+                <td>$15.00</td>
+                <td> <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Manilla cobra','15.00')"><img src="assets\img\carrito1.png" width="35" height="35"/></button> </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\joyeria2.jpg" class="img-fluid rounded-start" alt="joyeria2" width="150" height="50" style="position: center;"></td>                
+              <td>JOY02</td>
+              <td>Anillo de la India bañado en plata</td>
+              <td>$25.00</td>
+              <td> 
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Anillo de la India bañado en plata','25.00')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+                <td> <img src="assets\img\joyeria3.jpeg" class="img-fluid rounded-start" alt="joyeria1" width="150" height="50" style="position: center;"></td>                
+                <td>JOY03</td>
+                <td>Cadena de oro imagen ancla</td>
+                <td>$14.25</td>
+                <td>
+                    <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Cadena de oro imagen ancla<','14.25')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+                </td>
+              </tr>
+            <tr>
+              <td> <img src="assets\img\joyeria4.jpg" class="img-fluid rounded-start" alt="joyeria4" width="150" height="50" style="position: center;"></td>                
+              <td> JOY04</td>
+              <td>Combo cadena y manilla candado (exclusivo)</td>
+              <td>$50.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Combo cadena y manilla candado (exclusivo)','50.00')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\joyeria5.jpg" class="img-fluid rounded-start" alt="joyeria1" width="150" height="50" style="position: center;"></td>                
+              <td> JOY05</td>
+              <td>Reloj CARTIER</td>
+              <td>$30.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Reloj CARTIER','30.00')"><img src="assets\img\carrito1.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>   
+        
+    </body>
+
+    <script src="assets/js/script.js"></script>
+</html>
